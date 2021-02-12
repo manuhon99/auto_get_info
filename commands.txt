@@ -1,0 +1,36 @@
+CISCO
+
+enable
+show cdp nei
+show lldp nei
+show module
+show ip interface
+show interface brief
+show ip route
+show version
+show run
+
+---
+
+HP
+
+Display lldp neig
+Display module
+Display ip intergace
+Display interface sum
+Display ip route
+Display Version
+Display cur
+
+---
+
+DELL
+
+enable
+show lldp nei
+show module
+show ip interface
+show interface status
+show ip route
+show version
+show run

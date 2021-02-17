@@ -15,7 +15,6 @@ ipList = open(r'ipList.txt','r')
 todays_date = f'{datetime.now():%Y-%m-%d}'
 
 
-
 #Lista de comandos
 cmdList = ['enable', 'show cdp nei', 'show lldp nei', 'show module', 'show ip interface', 'show interface brief',
 'show ip route', 'show version', 'show run']

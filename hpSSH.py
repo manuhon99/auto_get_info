@@ -10,7 +10,7 @@ username = "developer"
 password = "C1sco12345"
 
 
-ipList = open(r'ipList.txt','r') 
+ipList = open(r'ipListHP.txt','r') 
 
 
 todays_date = f'{datetime.now():%Y-%m-%d}'

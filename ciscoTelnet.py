@@ -3,13 +3,14 @@ from dotenv import load_dotenv, find_dotenv
 from datetime import datetime
 from netmiko import ConnectHandler
 
-device_type = "'cisco_ios_telnet"
+device_type = "cisco_ios_telnet"
 port = 2002
 username = "developer"
 password = "C1sco12345"
 
 
-ipList = open(r'ipList.txt','r') 
+
+ipList = open(r'ipListCisco.txt','r') 
 
 
 todays_date = f'{datetime.now():%Y-%m-%d}'

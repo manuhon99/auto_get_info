@@ -4,13 +4,13 @@ from datetime import datetime
 from netmiko import ConnectHandler
 
 device_type = "hp_procurve_telnet"
-device_type = "hp_comware_telnet"
+#device_type = "hp_comware_telnet"
 port = 22
 username = "developer"
 password = "C1sco12345"
 
 
-ipList = open(r'ipList.txt','r') 
+ipList = open(r'ipListHP.txt','r') 
 
 
 todays_date = f'{datetime.now():%Y-%m-%d}'
